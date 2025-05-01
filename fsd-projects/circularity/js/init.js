@@ -75,6 +75,9 @@ for(var i = 0; i < 100; i++){
       if (circle.y < 0){
         circle.y = canvas.height
       }
+      if (circle.y > canvas.height){
+        circle.y = 0
+      }
 
       // YOUR TODO 6 CODE ENDS HERE //////////////////////////
     };
